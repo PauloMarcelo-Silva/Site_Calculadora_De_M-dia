@@ -1,0 +1,173 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    /*   min-height: 600px; */
+    background-image: url("https://img.freepik.com/fotos-gratis/material-de-papelaria-diferente-na-mesa-escura-fundo-educacional-criativo-para-site-com-lapis-de-cor-tintas-na-mesa-de-madeira-preta-volta-ao-conceito-de-escola-1-de-setembro-vista-superior-espaco-de-copia_203461-73.jpg?size=626&ext=jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+  }
+  
+  .page-title {
+    color: #FFD700;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ddd;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 150px;
+  }
+  
+  .alura-logo {
+    width: 0px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .nome {
+    width: 550px;
+    height: auto;
+    font-size: 20px;
+    border: solid 3px #20212c;
+    border-radius: 15px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nome input {
+    width: 350px;
+    height: 25px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    background-color: #8f9290;
+    color: #20212c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .boxNotas {
+    width: 650px;
+    height: auto;
+    background-color: #c4c4c4;
+    color: #20212c;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+  }
+  
+  .notas {
+    width: 450px;
+    height: auto;
+    font-size: 20px;
+    border: solid 3px #20212c;
+    border-radius: 15px;
+    padding: 3px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .notas input {
+    width: 120px;
+    height: 28px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: none;
+    background-color: #8f9290;
+    color: #20212c;
+    cursor: pointer;
+  }
+  
+  .btnMedia {
+    width: 160px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 8px;
+    border: none;
+    background-color: #20212c;
+    color: #ddd;
+    cursor: pointer;
+  }
+  
+  .btnMedia:hover {
+    opacity: 0.8;
+  }
+  
+  .resultado {
+    width: 650px;
+    height: auto;
+    background-color: #c4c4c4;
+    color: #20212c;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+  }
+  
+  .nota {
+    width: 170px;
+    height: 40px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    border: solid 5px #20212c;
+    border-radius: 15px;
+  }
+  
+  .classificacao {
+    width: 640px;
+    height: 30px;
+    font-size: 25px;
+    margin-top: 2px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .aprovacao {
+    width: 595px;
+    height: 30px;
+    font-size: 20px;
+    border: solid 3px #20212c;
+    color: #ddd;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

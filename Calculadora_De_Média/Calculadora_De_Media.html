@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Imersão Dev Alura - Aula 01</title>
+    <link rel="stylesheet" href="Calculadora_De_Media.css">
+  </head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Calculadora de Média Escolar</h1>
+    <p class="page-subtitle">
+      Calcule sua média de notas!
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+
+    <div class="boxNotas">
+      <label for="number">
+        <h2>Insira suas Notas:</h2>
+      </label>
+      <div class="nome">Qual é seu nome?<input type="text" id="name" size="2" /></div>
+      <div class="notas">Nota do 1º Bismestre:<input type="number" id="PrimeiroBimestre" size="2" /></div>
+      <div class="notas">Nota do 2º Bismestre:<input type="number" id="SegundoBimestre" size="2" /></div>
+      <div class="notas">Nota do 3º Bismestre:<input type="number" id="TerceiroBimestre" size="2" /></div>
+      <div class="notas">Nota do 4º Bismestre:<input type="number" id="QuartoBimestre" size="2" /></div>
+      <button class="btnMedia" type="submit" onclick="CalcMedia()">Calcular Média</button>
+      <!--        <h2 id="valorConvertido"></h2> -->
+    </div>
+
+    <div class="resultado">
+      <h2>Sua nota final é:</h2>
+      <div class="nota" id="results"></div>
+      <div class="classificacao">
+        <h4>Classificação:</h4>
+      </div>
+      <div class="aprovacao" id="classification"></div>
+    </div>
+
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <ul>
+    <li class="list">Add visual styles</li>
+    <li class="list">Add light and dark themes</li>
+    <li>Enable switching the theme</li>
+  </ul>
+  <script src="Calculadora_De_Media.js"></script>
+  <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+
+</html>
